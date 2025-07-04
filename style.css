@@ -83,3 +83,39 @@ button:hover {
     max-height: 550px;
     overflow-y: auto;
 }
+
+@media (max-width: 480px) {
+  body {
+    height: auto; /* Let body height adjust naturally */
+    padding: 1rem;
+  }
+  
+  .login-container {
+    max-width: 90vw; /* Use most of the screen width */
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+  input {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    max-width: none;
+  }
+  
+  .full-container {
+    width: 95vw;
+    height: auto;
+    max-height: none;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .full-container ul {
+    max-height: 300px; /* reduce height on smaller screens */
+  }
+}
