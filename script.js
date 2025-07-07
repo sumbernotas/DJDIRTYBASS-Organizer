@@ -1,4 +1,3 @@
-
 const searchBar = document.getElementById("searchBar");
 const songList = document.getElementById("songList");
 const songs = songList.getElementsByTagName("li");
