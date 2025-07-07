@@ -1,13 +1,3 @@
-function checkPassword() {
-    const correctPassword = "teamdirtybass";
-    const userInput = document.getElementById("passwordInput").value;
-
-    if (userInput === correctPassword) {
-        window.location.href = "songs.html"; // success
-    } else {
-        document.getElementById("errorMsg").textContent = "INCORRECT PASSWORD :("; // failure
-    }
-}
 
 const searchBar = document.getElementById("searchBar");
 const songList = document.getElementById("songList");
